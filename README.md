@@ -8,7 +8,7 @@ Mark attendance from a single class photo or by voice, in seconds.
 
 | Landing Page | Streamlit App |
 | --- | --- |
-| ![Landing Page](static/img/demo/landing-preview.png) | ![App](static/img/demo/app-preview.png) |
+| ![Landing Page](static/img/demo/snap-landing.png) | ![App](static/img/demo/app-preview.png) |
 
 ## 📖 About
 
