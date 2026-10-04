@@ -362,14 +362,26 @@
     </section>
 
     <footer class="main-footer">
-      <div class="footer-row">
-        <div class="logo">
-          <img
-            src="{{ url_for('static', filename='img/app_logo.jpg') }}"
-            alt="ClassMark Logo"
-          />
-          <div class="logo-text">ClassMark</div>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <img
+              src="{{ url_for('static', filename='img/app_logo.jpg') }}"
+              alt="ClassMark Logo"
+            />
+            <div class="logo-text">ClassMark</div>
+          </div>
+          <p>Smart attendance for modern classrooms, powered by AI.</p>
         </div>
+
+        <div class="footer-nav">
+          <a href="#student-journey">Student Journey</a>
+          <a href="https://classmark-main.streamlit.app/">Launch App</a>
+          <a href="#">Back to Top ↑</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
         <p>&copy; 2026 ClassMark AI. Built with ❤️ for educators everywhere.</p>
       </div>
     </footer>
