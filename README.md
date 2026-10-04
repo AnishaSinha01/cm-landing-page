@@ -4,9 +4,11 @@
 
 Mark attendance from a single class photo or by voice, in seconds.
 
-[🚀 Live App](https://classmark-main.streamlit.app/)
+🌐 [Landing Page](https://cm-landing-page-iota.vercel.app/) · 🚀 [Live App](https://classmark-main.streamlit.app/)
 
-![ClassMark](static/img/demo/snap-landing.png)
+| Landing Page | Streamlit App |
+| --- | --- |
+| ![Landing Page](static/img/demo/landing-preview.png) | ![App](static/img/demo/app-preview.png) |
 
 ## 📖 About
 
