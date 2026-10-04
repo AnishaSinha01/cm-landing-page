@@ -17,9 +17,9 @@ ClassMark replaces manual roll-calls with face and voice recognition. This repo 
 ## ✨ Features
 
 - 📸 **Face ID:** recognizes every student from one class photo
-- 🎙️ **Voice ID:** students say "Present" and their voice is matched in real time
+- 🎙️ **Voice ID:** students say "Present"
 - 📱 **QR enrollment:** students join a course by scanning a code
-- 📊 **Smart records:** confidence scores, CSV reports, and attendance trends
+- 📊 **Smart records:** CSV reports
 
 
 ## 🛠️ Tech Stack
@@ -35,8 +35,8 @@ ClassMark replaces manual roll-calls with face and voice recognition. This repo 
 ## 🚀 Run Locally
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/AnishaSinha01/cm-landing-page
+cd cm-landing-page
 pip install flask
 python app.py
 ```
