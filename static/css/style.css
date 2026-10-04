@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Outfit:wght@300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap");
 
 :root {
   --bg-main: #fcfcfd;
@@ -60,11 +59,11 @@ h4 {
 }
 
 .logo-text {
-  font-family: "Manrope", sans-serif;
+  font-family: "Fraunces", serif;
   font-size: 1.6rem;
   color: #ffffff;
-  font-weight: 800;
-  line-height: 0.8;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .nav-links {
@@ -80,7 +79,7 @@ h4 {
 }
 
 .nav-links a:hover {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .btn-pill {
@@ -109,7 +108,7 @@ h4 {
   justify-content: center;
   text-align: center;
   padding: 120px 40px;
-  background-color: #eaf3f0; /* pehle #f0f4ff tha */
+  background-color: #eaf3f0;
 }
 
 .badge {
@@ -385,7 +384,7 @@ h4 {
   height: 60px;
   min-width: 60px;
   background-color: white;
-  color: #7c4dff;
+  color: var(--primary);
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -418,7 +417,7 @@ h4 {
   margin-top: 10px;
 }
 
-/* Footer Section */
+/* CTA Section */
 .purple-section {
   background-color: var(--primary);
   color: white;
@@ -453,7 +452,7 @@ h4 {
 
 /* Main Footer */
 .main-footer {
-  padding: 100px 80px 40px;
+  padding: 80px 80px 30px;
   background-color: #1a2b26;
   border-top: 1px solid #2e463f;
   color: #ffffff;
@@ -461,32 +460,32 @@ h4 {
 
 .main-footer .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 80px;
   max-width: 1200px;
-  margin: 0 auto 80px;
+  margin: 0 auto 60px;
 }
 
 .footer-brand .logo {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-brand .logo img {
+  border-radius: 8px;
 }
 
 .footer-brand p {
-  color: #cccccc;
+  color: #b8cfc8;
   font-size: 1rem;
-  max-width: 320px;
-  line-height: 1.6;
-}
-
-.footer-brand .logo-text {
-  color: #ffffff;
+  max-width: 340px;
+  line-height: 1.7;
 }
 
 .footer-links h4 {
   font-size: 1.1rem;
   color: #ffffff;
-  margin-bottom: 32px;
-  font-weight: 800;
+  margin-bottom: 24px;
+  font-weight: 600;
 }
 
 .footer-links ul {
@@ -494,26 +493,33 @@ h4 {
 }
 
 .footer-links li {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .footer-links a {
   text-decoration: none;
-  color: #cccccc;
+  color: #b8cfc8;
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--secondary);
 }
 
 .footer-bottom {
-  padding-top: 40px;
-  border-top: 1px solid #333333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-top: 1px solid #2e463f;
   text-align: center;
 }
 
 .footer-bottom p {
-  color: #999999;
+  color: #8fa8a0;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Mobile Responsiveness Improvements */
@@ -544,10 +550,6 @@ h4 {
     font-size: 3.5rem;
   }
 
-  .tech-grid {
-    grid-template-columns: 1fr;
-  }
-
   .flow-step {
     gap: 40px;
     margin-bottom: 80px;
@@ -570,6 +572,14 @@ h4 {
   .tech-grid {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 30px;
+  }
+
+  .main-footer {
+    padding: 70px 40px 30px;
+  }
+
+  .main-footer .footer-grid {
+    gap: 50px;
   }
 }
 
@@ -697,18 +707,27 @@ h4 {
   }
 
   .main-footer {
-    padding: 60px 20px 30px;
+    padding: 50px 20px 25px;
   }
 
   .main-footer .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px 20px;
+    margin-bottom: 36px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
     text-align: center;
-    margin-bottom: 40px;
+  }
+
+  .footer-brand .logo {
+    justify-content: center;
   }
 
   .footer-brand p {
     max-width: 100%;
+    margin: 0 auto;
   }
 }
 
