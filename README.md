@@ -21,11 +21,6 @@ ClassMark replaces manual roll-calls with face and voice recognition. This repo 
 - 📱 **QR enrollment:** students join a course by scanning a code
 - 📊 **Smart records:** confidence scores, CSV reports, and attendance trends
 
-## ⚙️ How It Works
-
-**Teacher:** log in → create a course → take attendance (photo or voice) → review records
-
-**Student:** scan the course QR → view attendance percentage on a personal dashboard
 
 ## 🛠️ Tech Stack
 
